@@ -1,0 +1,25 @@
+{
+  "name": "node-postgresql-api",
+  "version": "1.0.0",
+  "description": "simple training api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon --delay 5000ms -e .js index.js"
+  },
+  "keywords": [
+    "node",
+    "nodeJS",
+    "PostgreSQL",
+    "API"
+  ],
+  "author": "Konstantin Kuksov",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
